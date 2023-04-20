@@ -15,9 +15,13 @@
     <body>
         <h1>Datos usuarios</h1>
         <form>
+            <label>Id: </label> <%=request.getAttribute("id") %>
             <label>Nombre: </label> <%=request.getAttribute("nombre") %>
             <br><br>
            <label> Email: </label> <%=request.getAttribute("email") %>
+           <br><br>
+           <label>Nacionalidad: </label> <%=request.getAttribute("nacionalidad") %>
+           <br><br>
         </form>
     </body>
 </html>

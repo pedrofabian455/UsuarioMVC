@@ -12,8 +12,11 @@ h1 {
                 color: #333;
                 font-weight: bold; 
             }
+            input[type="number"],
             input[type="text"],
-            input[type="email"] {
+            input[type="email"], 
+            input[type="nacionalidad"]
+            {
                 width: 95%; 
                 padding: 10px; 
                 margin-bottom: 20px;
