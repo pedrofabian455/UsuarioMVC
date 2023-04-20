@@ -9,14 +9,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="assets/css/usuariodatos.css"/>
         <title>Datos</title>
     </head>
     <body>
         <h1>Datos usuarios</h1>
         <form>
-            label Nombre: <%=request.getAttribute("nombre") %>
-            <br>
-            label Email: <%=request.getAttribute("email") %>
+            <label>Nombre: </label> <%=request.getAttribute("nombre") %>
+            <br><br>
+           <label> Email: </label> <%=request.getAttribute("email") %>
         </form>
     </body>
 </html>
